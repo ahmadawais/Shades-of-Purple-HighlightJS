@@ -1,10 +1,10 @@
 <img align="center" src="https://dha4w82d62smt.cloudfront.net/items/032R3i0B353Q3a3u2B3F/Screen%20Recording%202018-03-29%20at%2002.07%20AM.gif" />
 
-<h1 align="center">Shades of Purple Theme for VS Code</h1>
+<h1 align="center">Shades of Purple Theme for HighlightJS</h1>
 
 <div align="center">
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/ahmadawais.shades-of-purple.svg?label=Shades%20of%20Purple&colorB=4d21fc)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) [![Installs](https://img.shields.io/vscode-marketplace/d/ahmadawais.shades-of-purple.svg?label=Developers&colorB=b362ff)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) [![Rating](https://img.shields.io/vscode-marketplace/r/ahmadawais.shades-of-purple.svg?label=Ratings&colorB=A599E9)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details)
+[![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg)](https://github.com/ahmadawais/Emoji-Log/)
 
 </div>
 
@@ -16,7 +16,7 @@
     <tr>
         <td align='left' width='100%' colspan='2'>
             <strong><code>Shades of Purple (SOP)</code></strong><br />
-            A professional theme with hand-picked & bold shades of purple 💜 to go along with your VS Code. A custom VS Code theme with style. Become a <a href="https://VSCode.pro/" target="_blank">Visual Studio Code Power User →</a>
+            A professional theme with hand-picked & bold shades of purple 💜 to go along with your HighlightJS. A custom HighlightJS theme with style.</a>
         </td>
     </tr>
     <tr>
@@ -34,98 +34,46 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/ahmadawais/shades-of-purple-vscode.svg?style=social&label=Stars)](https://github.com/ahmadawais/shades-of-purple-vscode/stargazers) [![GitHub followers](https://img.shields.io/github/followers/ahmadawais.svg?style=social&label=Follow)](https://github.com/ahmadawais?tab=followers) [![Tweet for help](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
+[![GitHub stars](https://img.shields.io/github/stars/ahmadawais/shades-of-purple-HighlightJS.svg?style=social&label=Stars)](https://github.com/ahmadawais/shades-of-purple-HighlightJS/stargazers) [![GitHub followers](https://img.shields.io/github/followers/ahmadawais.svg?style=social&label=Follow)](https://github.com/ahmadawais?tab=followers) [![Tweet for help](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
 
 </div>
 
 <br>
 
-![Install](https://on.ahmda.ws/qqJf/c)
-
-## Video Demo & Installation
-
-Watch the following video on YouTube to find out more about Shades of Purple theme. Learn how to install it and a little bit about it's features like markdown editing — which's quite pretty awesome with SOP.
-
-<h4 align="center">
-  <a href="https://www.youtube.com/watch?v=Im2lTYuw4iQ" target="_blank"><img src="https://on.ahmda.ws/qpkO/c" />
-
-  📺 Watch The Video To Learn More → </a>
-</h4>
-
-
-
-<br>
-
 ![Install](https://on.ahmda.ws/qWVC/c)
 
-## Easy Installation
+## Easy To Download
 
-1. Open the extensions sidebar on Visual Studio Code
-1. Search for **Shades of Purple Theme**
-1. Click **Install** to install it.
-1. Click **Reload** to reload your editor.
-1. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+Download the `shades-of-purple.css` any where in your project. You can use command line to run the command below and it will download this css file in the folder you run this command in.
 
-<br>
+```sh
+wget -qO shades-of-purple.css https://git.io/SOPHighlightHS
+```
 
-![alternate installation](https://on.ahmda.ws/qWuq/c)
-
-## Alternate Installation
-
-1. Launch Quick Open using <kbd>Cmd</kbd>+<kbd>P</kbd> — or — <kbd>Ctrl</kbd>+<kbd>P</kbd>.
-1. Paste the command `ext install shades-of-purple`
-1. Click **Install** to install it.
-1. Click **Reload** to reload the your editor.
-1. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+Or you can manually go to this link [Download shades-of-purple.css](https://git.io/SOPHighlightHS) and save it as `shades-of-purple.css` in your project.
 
 <br>
 
 ![Tips](https://on.ahmda.ws/qVjy/c)
 
-## Best Custom Settings!
+## Usage
 
-This theme works best with the following settings. Especially if you have the Operator mono font. Add it to your user settings JSON object.
+1. Copy [`shades-of-purple.css`](https://git.io/SOPHighlightHS) to your desired directory.
+1. Include the theme in your html. <link rel="stylesheet" href="shades-of-purple.css">
 
-_You can also use a custom [VSCode Shades-of-Purple icon](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/logo.png) that I created based on the work of amazing designer Dhanish called [VSCode Icons](https://github.com/dhanishgajjar/vscode-icons#how-to-install)._
+In the end, your page should look something like this:
 
-
-```js
-
-// Theme Setup.
-  "workbench.colorTheme": "Shades of Purple",
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 24.65,
-  "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "400",
-  "editor.fontLigatures": true,
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "all",
-  "editor.snippetSuggestions": "top",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.glyphMargin": true,
-  "workbench.editor.enablePreview": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
-  // Formatting Optional.
-  "editor.formatOnSave": true,
-  "prettier.eslintIntegration": true,
-  "eslint.run": "onType",
-  "eslint.autoFixOnSave": true,
-  // MacOS Only Settings.
-  "workbench.fontAliasing": "auto",
-  "terminal.integrated.macOptionIsMeta": true,
-  "workbench.statusBar.feedback.visible": false,
-
+```html
+<link rel="stylesheet" href="shades-of-purple.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<pre><code class="javascript">
+// JS Functions
+function shade(which) {
+  console.log(which, 'Shades of Purple');
+}
+</code></pre>
 ```
-
-💜 _I'll be teaching more about configuring this theme and your Visual Studio Code editor at [VSCode.pro](https://VSCode.pro/). Interested?! Sign up to become a [VSCode Power User](https://VSCode.pro/) →_
-
 
 <br>
 
@@ -135,7 +83,7 @@ _You can also use a custom [VSCode Shades-of-Purple icon](https://raw.githubuser
 
 I have built other `Shades of Purple` themes for different software. Here's a list.
 
-- 💜 [VSCode theme](https://github.com/ahmadawais/shades-of-purple-vscode) — Shades of Purple
+- 💜 [VSCode theme](https://github.com/ahmadawais/shades-of-purple-VSCode) — Shades of Purple
 - 💜 [iTerm2 theme](https://github.com/ahmadawais/shades-of-purple-iterm2) — Shades of Purple
 - 💜 [Hyper™ theme](https://github.com/ahmadawais/shades-of-purple-hyper) — Shades of Purple
 - 💜 [Konsole theme](https://github.com/ahmadawais/shades-of-purple-konsole) — Shades of Purple
@@ -173,8 +121,8 @@ This FOSS (free and open source software) project is updated and maintained with
 <table width='100%'>
 	<tr>
 		<td width='333.33'><a target='_blank' href='https://www.gravityforms.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mtrE/c' /></a></td>
-		<td width='333.33'><a target='_blank' href='https://kinsta.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mu5O/c' /></a></td>
-		<td width='333.33'><a target='_blank' href='https://wpengine.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mto3/c' /></a></td>
+		<td width='333.33'><a target='_blank' href='https://kinsta.com/?kaid=WMDAKYHJLNJX&utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mu5O/c' /></a></td>
+		<td width='333.33'><a target='_blank' href='https://ahmda.ws/USES_WPE?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mto3/c' /></a></td>
 	</tr>
 	<tr>
 		<td width='333.33'><a target='_blank' href='https://www.sitelock.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mtyZ/c' /></a></td>
@@ -193,7 +141,7 @@ This FOSS (free and open source software) project is updated and maintained with
 	</tr>
 	<tr>
 		<td width='333.33'><a target='_blank' href='https://mythemeshop.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/n3ug/c' /></a></td>
-		<td width='333.33'><a target='_blank' href='https://www.liquidweb.com/?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mtnt/c' /></a></td>
+		<td width='333.33'><a target='_blank' href='https://ahmda.ws/USES_LiquidWeb?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mtnt/c' /></a></td>
 		<td width='333.33'><a target='_blank' href='https://WPCouple.com/contact?utm_source=WPCouple&utm_medium=Partner'><img src='https://on.ahmda.ws/mu3F/c' /></a></td>
 	</tr>
 </table>
@@ -206,6 +154,6 @@ This FOSS (free and open source software) project is updated and maintained with
 
 **Licensed** as MIT ⓒ [Ahmad Awais](https://AhmadAwais.com/).
 
-Thanks to VSCode team at Microsoft for creating such an awesome code editor. Also to the creator of other high contrast themes that served as an inspiration. This theme takes inspiration from many VSCode themes including but not limited to Cobalt themes by Roberto Achar, Ayu, Palenight themes, Dracula themes, etc. Thanks Dhanish for awesome VSCode icons. And Icons8 for the icons in this readme.
+Thanks to makers of HighlightJS and Icons8 for the icons in this readme.
 
-_Say 👋 on Twitter_ →  [![Tweet for help](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
+_Follow me 👋 on Twitter_ →  [![Tweet to say Hi](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
