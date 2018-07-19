@@ -16,6 +16,16 @@
 	font-weight: normal !important;
 }
 
+.hljs-name {
+	color: #a1feff !important;
+}
+.hljs-tag {
+	color: #ffffff !important;
+}
+.hljs-attr {
+	color: #f8d000 !important;
+	font-style: italic !important;
+}
 .hljs-built_in,
 .hljs-selector-tag,
 .hljs-section {
@@ -32,7 +42,6 @@
 }
 
 .hljs-string,
-.hljs-name,
 .hljs-attribute,
 .hljs-symbol,
 .hljs-bullet,
