@@ -1,4 +1,4 @@
-<img align="center" src="https://dha4w82d62smt.cloudfront.net/items/032R3i0B353Q3a3u2B3F/Screen%20Recording%202018-03-29%20at%2002.07%20AM.gif" />
+<img align="center" src="https://on.ahmda.ws/t6h8/c" />
 
 <h1 align="center">Shades of Purple Theme for HighlightJS</h1>
 
