@@ -4,10 +4,11 @@
 .hljs {
 	display: block;
 	overflow-x: auto;
-	font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace' !important;
+	/* Custom font is optional */
+	/* font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace' !important; */
+	line-height: 1.45 !important;
 	padding: 2rem !important;
 	background: #2d2b57 !important;
-	line-height: 1.45 !important;
 	font-weight: normal !important;
 }
 
