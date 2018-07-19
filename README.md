@@ -1,8 +1,6 @@
-<img align="center" src="https://on.ahmda.ws/t6h8/c" />
-
-<h1 align="center">Shades of Purple Theme for HighlightJS</h1>
-
 <div align="center">
+	<img align="center" src="https://on.ahmda.ws/t6h8/c" />
+	<h1 align="center">Shades of Purple Theme for HighlightJS</h1>
 
 [![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg)](https://github.com/ahmadawais/Emoji-Log/)
 
