@@ -1,0 +1,21 @@
+{
+	"name": "shades-of-purple-highlightjs",
+	"displayName": "Shades of Purple HighlightJS",
+	"description": "⚡ A professional theme with hand-picked & bold shades of purple 💜 to go along with your HighlightJS. A custom HighlightJS theme with style.",
+	"version": "1.0.0",
+	"publisher": "ahmadawais",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadawais/shades-of-purple-vscode"
+	},
+	"keywords": [
+		"Shades of Purple",
+		"Shade of Purple HighlightJS"
+	],
+	"devDependencies": {
+		"release-it": "^7.4.3"
+	},
+	"scripts": {
+		"release": "release-it"
+	}
+}
