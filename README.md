@@ -152,6 +152,6 @@ This FOSS (free and open source software) project is updated and maintained with
 
 **Licensed** as MIT ⓒ [Ahmad Awais](https://AhmadAwais.com/).
 
-Thanks to makers of HighlightJS and Icons8 for the icons in this readme.
+Thanks to makers of [HighlightJS](https://github.com/highlightjs/highlight.js) and Icons8 for the icons in this readme.
 
 _Follow me 👋 on Twitter_ →  [![Tweet to say Hi](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
