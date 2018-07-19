@@ -1,5 +1,5 @@
-/* Shades of Purple Theme for HighlightJS */
-/* HighlightJS → https://github.com/highlightjs/highlight.js */
+/* Shades of Purple Theme for Highlightjs */
+/* Highlightjs → https://github.com/highlightjs/highlight.js */
 
 .hljs {
 	display: block;
@@ -8,6 +8,12 @@
 	font-family: Operator Mono !important;
 	background: #2d2b57 !important;
 	line-height: 1.45 !important;
+	font-weight: normal !important;
+}
+
+.hljs-title {
+	color: #fad000 !important;
+	font-weight: normal !important;
 }
 
 .hljs-built_in,
